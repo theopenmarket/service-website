@@ -1,17 +1,28 @@
-@import './_variables';
+// Colors - palette
 
-.bg-blue--dark {
-  background-color: $blue-dark;
-}
+$purple-clear: rgb(131, 122, 211);
+$purple: rgb(79, 71, 164);
+$blue-clear: rgb(61, 133, 247);
+$blue: rgb(25, 85, 197);
+$green-clear: rgb(122, 213, 167);
+$green: rgb(57, 132, 93);
+$cyan-clear: rgb(85, 196, 226);
+$cyan: rgb(67, 161, 188);
+$yellow: rgb(247, 197, 68);
+$orange-clear: rgb(243, 157, 65);
+$orange: rgb(240, 124, 92);
+$red: rgb(206, 68, 37);
+$grey: rgb(109, 119, 138);
+$black-light: rgb(146, 147, 148);
+$black: rgb(30, 30, 30);
 
-.bg-gray--light {
-  background-color: $gray--light;
-}
+$blue-clearer: rgb(122, 171, 237);
+$blue-clear: rgb(78, 149, 247);
+$blue: rgb(44, 124, 246); // From theme
+$blue-dark: rgb(44, 112, 215);
+$blue-darker: rgb(44, 112, 215);
 
-.bg-gray {
-  background-color: $gray;
-}
-
-.shadow-md {
-  box-shadow: 0px 7px 20px -13px rgba(0,0,0,0.3);
-}
+$gray-lighter: rgb(238, 238, 238);
+$gray-light: rgb(244, 245, 246);
+$gray: #9AA4AF;
+$gray-dark: rgb(116, 129, 145);

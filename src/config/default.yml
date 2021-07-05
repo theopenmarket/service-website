@@ -1,0 +1,24 @@
+app:
+  env: 'development'
+  router:
+    home: '/'
+    discover: '/discover'
+    authentication:
+      signIn: '/signin'
+      signUp: '/signup'
+    search: '/search/[query]'
+    store: '/store/[id]'
+
+seo:
+  website:
+    name: 'My Open Market'
+    description: 'A community of buyers and sellers with no intermediary'
+
+api:
+  routes:
+    state: '/'
+    authentication:
+      signIn: '/auth/signin'
+      signUp: '/auth/signup'
+    me:
+      get: '/me'

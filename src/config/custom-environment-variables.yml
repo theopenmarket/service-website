@@ -1,0 +1,5 @@
+app:
+  env: 'NODE_ENV'
+
+api:
+  host: 'API_HOST'

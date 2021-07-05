@@ -1,0 +1,35 @@
+@import './colors';
+// Colors - theme
+
+$primary-lighter: $blue-clearer;
+$primary-light: $blue-clear;
+$primary: $blue;
+$primary-dark: $blue-dark;
+$primary-darker: $blue-darker;
+$secondary-clearer: $red;
+$secondary-clear: $purple-clear;
+$secondary: $purple;
+$secondary-dark: $red;
+$secondary-darker: $red;
+$text-muted: $gray;
+$text-clearer: $gray-lighter;
+$text-clear: rgb(65, 81, 105);
+$text: $black;
+$text-dark: rgb(65, 81, 105);
+
+// LENGTH
+// Base
+$length--xs: $length--base / 3;
+$length--sm: $length--base / 2;
+$length--base: 8px;
+$length--md: 2 * $length--base;
+$length--lg: 3 * $length--base;
+$length--xl: 4 * $length--base;
+// Applications
+$border-radius--base: $length--base;
+
+// TIMES
+// Base
+$time--base: 0.16s;
+// Applications
+$animation-time: $time--base;
